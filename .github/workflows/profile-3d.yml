@@ -2,7 +2,7 @@ name: Profile-3D-Contrib
 
 on:
   schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 16 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
