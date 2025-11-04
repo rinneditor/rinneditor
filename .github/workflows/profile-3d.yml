@@ -1,8 +1,8 @@
 name: Profile-3D-Contrib
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 16 * * *"
+  schedule:
+    - cron: "0 18 * * *" # 每天18:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -14,14 +14,17 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+
+      - name: Generate 3D Profile
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           USERNAME: ${{ github.repository_owner }}
+
       - name: Commit & Push
         run: |
-          git config user.name rinneditor
-          git config user.email rinnedior@gmail.com
-          git add -A .
+          git config user.name "rinneditor"
+          git config user.email "rinnedior@gmail.com"
+          git add -A
           git commit -m "generated"
           git push
