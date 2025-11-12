@@ -19,6 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SECRET_BOT }}
           USERNAME: ${{ github.repository_owner }}
+          OUTPUT_BRANCH: main
 
       - name: Commit & Push
         run: |
