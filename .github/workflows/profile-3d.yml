@@ -14,7 +14,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -22,8 +22,9 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config user.name rinneditor
-          git config user.email rinnedior@gmail.com
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          echo "$(date)" > last_update.txt
           git add -A .
-          git commit -m "generated"
+          git commit -m "generated $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
