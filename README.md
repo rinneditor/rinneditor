@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 </div>
 <div>&nbsp;</div>
 <div align="center" >
-  <img src="https://count.getloli.com/@rinneditor?name=rinneditor&theme=booru-jaypee&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto&num=92613&prefix=213">
+  <!-- <img src="https://count.getloli.com/@rinneditor?name=rinneditor&theme=booru-jaypee&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto&num=92613&prefix=213"> -->
 
   <!-- GitHub 奖杯🏆 -->
   <img src="https://github-profile-trophy.vercel.app/?username=rinneditor&theme=gruvbox&row=1&column=5&no-frame=true&no-bg=true" />
