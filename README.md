@@ -17,21 +17,9 @@ Here are some ideas to get you started:
   <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&size=40&pause=1000&color=F7D665&center=true&vCenter=true&width=800&height=100&lines=Mery+Rinneditor;Where+Creativity+Flows+Like+Waves;Let's+Dive+into+Something+Amazing!" alt="Typing SVG" />
 </div>
 <div>&nbsp;</div>
-<div align="center">
-  <img
-    src="image/akinights.jpg"
-    width="300"
-    alt="profile image"
-    align="center"
-    <!-- style="border-radius: 50%; box-shadow: 0 0 20px #00A1D6;" -->
-</div>
-<div>&nbsp;</div>
-<div align="center" >
-  <img src="https://count.getloli.com/@rinneditor?name=rinneditor&theme=booru-jaypee&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto&num=92613&prefix=213">
 
-  <!-- GitHub 奖杯🏆 -->
-  <!--<img src="https://github-profile-trophy.vercel.app/?username=rinneditor&theme=gruvbox&row=1&column=5&no-frame=true&no-bg=true" />-->
-</div>
+<div>&nbsp;</div>
+
 <div>&nbsp;</div>
 <!-- Snake Animation -->
 <picture>
